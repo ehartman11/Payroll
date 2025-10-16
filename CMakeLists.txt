@@ -10,16 +10,10 @@ add_executable(payroll
     src/main.cpp
 )
 
-# If you later split implementations:
-# add_library(payrolllib
-#     src/employee.cpp
-#     src/payroll.cpp
-# )
-# target_link_libraries(payroll payrolllib)
-
 Build & run:
 
 mkdir build && cd build
 cmake ..
 cmake --build .
 ./payroll
+
